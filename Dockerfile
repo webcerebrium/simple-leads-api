@@ -7,7 +7,7 @@ COPY src/ /app/src/
 
 
 # ENV SLACK_CHANNEL_URL
-ENV DEBUG=*,-follow-redirects,-express,-body-parser
+ENV DEBUG=*,-follow-redirects,-express:*,-body-parser:*
 VOLUME /opt/leads
 EXPOSE 8222
 CMD ["node", "server.js"]

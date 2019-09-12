@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/webcerebrium/simple-leads-api#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
